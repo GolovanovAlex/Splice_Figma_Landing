@@ -1,6 +1,7 @@
 // ---- ---- fonts ---- ---- //
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 // ---- ---- reset ---- ---- //
+@import 'animate.min.scss';
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'base.scss';
@@ -13,121 +14,154 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 23px 19px 20px;
-  }
-  &__logo-box {
-  }
-  &__logo {
-  }
-  &__logo-img {
-  }
-  &__login {
+    padding: 18px 23px 20px 20px;
   }
   &__login-btn {
-    font-size: 16px;
-    font-weight: 400;
     line-height: 1.25;
     color: $color_t_accent;
     text-align: center;
+    &:hover {
+      text-decoration: underline;
+    }
     &--sing {
       color: $color_bgdark;
       background-color: $color_light;
       border-radius: 32px;
       padding: 8px 21px;
       margin-left: 20px;
+      &:hover {
+        background-color: $color_accent;
+        color: $color_light;
+      }
     }
   }
   &__get {
+    background-color: $color_accent;
+    padding: 11px;
+    text-align: center;
   }
   &__get-text {
+    line-height: 1.5;
   }
   &__get-link {
+    margin-left: 40px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 // ---- ---- hero ---- ---- //
 .hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 140px;
   &__title {
+    max-width: 500px;
+    margin-bottom: 26px;
   }
   &__text {
+    max-width: 450px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 44px;
   }
   &__btn {
+    padding: 16px 32px;
+    margin-bottom: 150px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__more-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   &__more-link {
+    span {
+      display: flex;
+      margin-bottom: 17px;
+    }
   }
   &__more-img {
+    margin-bottom: 15px;
   }
 }
 // ---- ---- sound ---- ---- //
 .sound {
-  &__contant {
+  &__content {
+    max-width: 430px;
   }
   &__title {
+    margin-bottom: 5px;
   }
   &__text {
+    margin-bottom: 12px;
   }
   &__subtext {
-  }
-  &__btn {
-  }
-  &__img-box {
-  }
-  &__img {
+    max-width: 400px;
+    margin-bottom: 23px;
   }
 }
 // ---- ---- connected ---- ---- //
 .connected {
-  &__img-box {
-  }
-  &__img {
-  }
-  &__contant {
+  text-align: right;
+  &__content {
+    max-width: 430px;
   }
   &__title {
+    margin-bottom: 5px;
   }
   &__text {
+    margin-bottom: 12px;
   }
   &__subtext {
+    max-width: 400px;
+    margin-bottom: 23px;
   }
 }
 // ---- ---- gear ---- ---- //
 .gear {
-  &__contant {
+  &__content {
+    max-width: 400px;
   }
   &__title {
+    margin-bottom: 5px;
   }
   &__text {
+    margin-bottom: 12px;
   }
   &__subtext {
-  }
-  &__btn {
-  }
-  &__img-box {
-  }
-  &__img {
+    max-width: 400px;
+    margin-bottom: 23px;
   }
 }
 // ---- ---- technology ---- ---- //
 .technology {
-  &__img-box {
-  }
-  &__img {
-  }
-  &__contant {
+  text-align: right;
+  &__content {
+    max-width: 430px;
   }
   &__title {
+    margin-bottom: 5px;
   }
   &__text {
+    margin-bottom: 12px;
   }
   &__subtext {
-  }
-  &__btn {
+    max-width: 420px;
+    margin-bottom: 23px;
   }
 }
 // ---- ---- creators ---- ---- //
 .creators {
   padding: 120px 0;
+  &__inner {
+    padding: 0 48px;
+  }
   &__text-title {
     font-size: 28px;
     font-weight: 400;
@@ -166,9 +200,22 @@
 }
 // ---- ---- try ---- ---- //
 .try {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   &__text {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.11;
+    margin-bottom: 57px;
   }
   &__btn {
+    padding: 10px 25px;
   }
 }
 
