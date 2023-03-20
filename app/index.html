@@ -109,7 +109,7 @@
               <a class="hero__more-link" href="#sound">
                 <span>Learn more</span>
                 <img
-                  class="hero__more-img"
+                  class="hero__more-img animate__animated animate__slideOutDown animate__infinite"
                   src="images/icon/arrow_down.svg"
                   alt="Learn more"
                 />
@@ -117,10 +117,13 @@
             </div>
           </div>
         </section>
-        <section class="sound">
+        <section class="sound" id="sound">
           <div class="container">
             <div class="section__box">
-              <div class="sound__content">
+              <div
+                class="sound__content wow animate__animated animate__fadeInRight"
+                data-wow-offset="300"
+              >
                 <h3 class="title title__h3 sound__title">Sounds</h3>
                 <p class="sound__text section__text">
                   A catalog so deep, it’s dangerous.
@@ -151,7 +154,10 @@
                   alt="connected"
                 />
               </div>
-              <div class="connected__content">
+              <div
+                class="connected__content wow animate__animated animate__fadeInRight"
+                data-wow-offset="300"
+              >
                 <h3 class="title title__h3 connected__title">
                   Connected Experience
                 </h3>
@@ -170,7 +176,10 @@
         <section class="gear">
           <div class="container">
             <div class="section__box">
-              <div class="gear__content">
+              <div
+                class="gear__content animate__animated animate__fadeInRight"
+                data-wow-offset="300"
+              >
                 <h3 class="title title__h3 gear__title">Gear</h3>
                 <p class="gear__text section__text">
                   Build a drool-worthy studio, affordably.
@@ -441,6 +450,7 @@
         </div>
       </footer>
     </div>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
 </html>
