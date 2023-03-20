@@ -4,10 +4,11 @@ Email: Golovanov.a.a@yandex.ru
 Location: Ryazan, Russia.
 
 /* THANKS */ 
-Youtube chanel "from 0 to 1".
+FIGMA | Макеты для верстки.
+https://t.me/s/FigmaToHTML
 
 /* SITE */ 
-Last update: 2022/11/07.
+Last update: 2023/03/21.
 
 
 

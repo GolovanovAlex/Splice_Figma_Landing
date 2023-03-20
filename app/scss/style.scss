@@ -1,11 +1,175 @@
+// ---- ---- fonts ---- ---- //
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 // ---- ---- reset ---- ---- //
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'base.scss';
 @import 'global.scss';
 
-// ---- ---- fonts ---- ---- //
-@font-face {
+// ---- ---- main ---- ---- //
+// ---- ---- header ---- ---- //
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 23px 19px 20px;
+  }
+  &__logo-box {
+  }
+  &__logo {
+  }
+  &__logo-img {
+  }
+  &__login {
+  }
+  &__login-btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: $color_t_accent;
+    text-align: center;
+    &--sing {
+      color: $color_bgdark;
+      background-color: $color_light;
+      border-radius: 32px;
+      padding: 8px 21px;
+      margin-left: 20px;
+    }
+  }
+  &__get {
+  }
+  &__get-text {
+  }
+  &__get-link {
+  }
+}
+// ---- ---- hero ---- ---- //
+.hero {
+  &__title {
+  }
+  &__text {
+  }
+  &__btn {
+  }
+  &__more-box {
+  }
+  &__more-link {
+  }
+  &__more-img {
+  }
+}
+// ---- ---- sound ---- ---- //
+.sound {
+  &__contant {
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__subtext {
+  }
+  &__btn {
+  }
+  &__img-box {
+  }
+  &__img {
+  }
+}
+// ---- ---- connected ---- ---- //
+.connected {
+  &__img-box {
+  }
+  &__img {
+  }
+  &__contant {
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__subtext {
+  }
+}
+// ---- ---- gear ---- ---- //
+.gear {
+  &__contant {
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__subtext {
+  }
+  &__btn {
+  }
+  &__img-box {
+  }
+  &__img {
+  }
+}
+// ---- ---- technology ---- ---- //
+.technology {
+  &__img-box {
+  }
+  &__img {
+  }
+  &__contant {
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__subtext {
+  }
+  &__btn {
+  }
+}
+// ---- ---- creators ---- ---- //
+.creators {
+  padding: 120px 0;
+  &__text-title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 24px;
+  }
+  &__box {
+    display: flex;
+    gap: 10px;
+  }
+  &__card {
+    background-color: $color_bglight;
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+  }
+  &__img {
+    margin-bottom: 30px;
+  }
+  &__text {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.3px;
+    color: $color_t_dark;
+    margin-bottom: 16px;
+  }
+  &__name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: $color_t_light;
+    text-align: left;
+  }
+}
+// ---- ---- try ---- ---- //
+.try {
+  &__text {
+  }
+  &__btn {
+  }
 }
 
 // ---- ---- media ---- ---- //
