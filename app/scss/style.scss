@@ -105,6 +105,9 @@
     max-width: 400px;
     margin-bottom: 23px;
   }
+  &__img {
+    width: 100%;
+  }
 }
 // ---- ---- connected ---- ---- //
 .connected {
@@ -122,6 +125,9 @@
     max-width: 400px;
     margin-bottom: 23px;
   }
+  &__img {
+    width: 100%;
+  }
 }
 // ---- ---- gear ---- ---- //
 .gear {
@@ -137,6 +143,9 @@
   &__subtext {
     max-width: 400px;
     margin-bottom: 23px;
+  }
+  &__img {
+    width: 100%;
   }
 }
 // ---- ---- technology ---- ---- //
@@ -154,6 +163,9 @@
   &__subtext {
     max-width: 420px;
     margin-bottom: 23px;
+  }
+  &__img {
+    width: 100%;
   }
 }
 // ---- ---- creators ---- ---- //
@@ -179,6 +191,7 @@
     text-align: center;
   }
   &__img {
+    width: 100%;
     margin-bottom: 30px;
   }
   &__text {
