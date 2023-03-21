@@ -1,3 +1,46 @@
 // ---- ---- media ---- ---- //
-@media (max-width: 1440px) {
+@media (max-width: 850px) {
+  .header {
+    &__inner {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__get-link {
+      display: block;
+      margin-left: auto;
+    }
+    .menu {
+      margin-left: auto;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .maketforfigma p {
+    line-height: 1.2;
+  }
+  .header {
+    &__inner {
+      padding: 20px 0;
+    }
+    .menu {
+      &__list {
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .title {
+    &__h1 {
+      font-size: 50px;
+    }
+  }
+  .hero__text {
+    font-size: 16px;
+    text-shadow: 1px 2px 2px $color_bgdark;
+  }
+  .hero__btn {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 420px) {
 }
