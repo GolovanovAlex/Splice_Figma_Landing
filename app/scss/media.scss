@@ -26,6 +26,17 @@
   .creators__inner {
     padding: 0;
   }
+  .footer__wrap {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 757px) {
+  .footer__policy-box {
+    padding: 0;
+  }
 }
 @media (max-width: 670px) {
   .section__box {
@@ -43,6 +54,23 @@
   }
   .creators__card {
     padding: 10px;
+  }
+  .footer__policy-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__policy-text {
+    padding-right: 0;
+  }
+  .footer__policy-list {
+    flex-wrap: wrap;
+  }
+  .footer__wrap--web {
+    display: none;
+  }
+  .footer__wrap--mobile {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 550px) {

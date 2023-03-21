@@ -59,10 +59,9 @@ function build() {
       'app/favicon/**/*',
       'app/fonts/**/*',
       'app/js/main.min.js',
-      'app/js/jquery.min.js',
-      'app/js/jquery.fancybox.min.js',
-      'app/js/slick.min.js',
+      'app/js/wow.min.js',
       'app/*html',
+      'app/humans.txt',
     ],
     { base: 'app' }
   ).pipe(dest('docs'));
